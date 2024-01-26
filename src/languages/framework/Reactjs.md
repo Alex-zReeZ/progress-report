@@ -8,6 +8,7 @@ To help me with that, the [React documentation](https://react.dev/learn) really 
 
 ### Here is an exemple of my code
 
+
 ```jsx
 // Function to render SemesterRow components based on the semesters array
 const renderSemesterRows = () => {
@@ -24,3 +25,9 @@ const renderSemesterRows = () => {
 }
 
 ```
+
+This code create a new semester each time you click on the button "add semester" 
+
+![show the add semester button](../../images/addsemesterbutton.png)
+
+## [Go to project](../../projects/grades-calculator.md)
