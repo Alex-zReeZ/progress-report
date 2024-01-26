@@ -8,3 +8,5 @@ I have undertaken during my apprenticeship.
 Throughout this report, I will present the various stages of the development process and the technological choices made.
 
 This report provides a retrospective of the projects undertaken, detailing my language skill advancements.
+
+I am currently working on a web grade calculator using React, TypeScript, Tailwind.

@@ -5,7 +5,7 @@
 The purpose of this project was to recreate a website page from a figma mock-up converted to pdf,
 to upgrade our Html and CSS knowledge.
 
-## How is look like
+## How it look like
 
 ![what the webSite looks like :](../images/Home%20Page.png)
 

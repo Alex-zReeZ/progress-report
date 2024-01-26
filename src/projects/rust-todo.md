@@ -7,13 +7,13 @@ This project was made to use the Rust knowledge that we acquire by doing the exe
 
 For the realisation of this project, I use [Rust documentation](https://doc.rust-lang.org/book/).
 
-## How is look like
+## How it look like
 \
 ![Rust Todo in command line](../images/screen-rust-todo.png)
 
 ## How did I do it
 
-
+You simply need to creat a new Rust project
 
 ```shell
 # Rust project creation 
@@ -25,3 +25,4 @@ cargo run
 
 ```
 
+And then start developing

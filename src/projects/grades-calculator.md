@@ -5,7 +5,7 @@
 The purpose of this website is to calculate a student's grades, determining all the necessary averages.
 It serves as a tool to help the student keep track of their grades during their learning.
 
-## How is look like 
+## How it look like 
 
 ### Without grades added :
 

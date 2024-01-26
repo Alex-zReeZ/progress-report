@@ -5,7 +5,7 @@
 This project was made to use the Java knowledge that we acquire by doing the exercises proposed by Intellj.
 
 
-## How is look like
+## How itk like
 
 ### Game Begin
 
