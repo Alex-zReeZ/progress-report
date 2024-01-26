@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 // Will be displayed in left side bar and navigation
 const links = [
@@ -14,7 +14,7 @@ const links = [
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // Update your title and description with user name
-  title: "My Progress Report - Toto",
+  title: "My Progress Report - Alex",
   description: "The training report outlines all the skills acquired during the CFC of computer scientist applications development.",
   cleanUrls: true,
   lang: 'en',
@@ -46,7 +46,7 @@ export default defineConfig({
 
     socialLinks: [
       // Replace link with yor own GitHub repo or github profile
-      { icon: 'github', link: 'https://github.com/jobtrek/progress-report' }
+      { icon: 'github', link: 'https://github.com/Alex-zReeZ/progress-report' }
     ],
 
     editLink: {
