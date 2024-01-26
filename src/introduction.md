@@ -1,3 +1,3 @@
 # Introduction
 
-> Indroduce myself
+> Hello, my name is Alex 

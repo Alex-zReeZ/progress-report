@@ -1,19 +1,26 @@
 import {defineConfig} from 'vitepress'
 
-// Will be displayed in left side bar and navigation
+// Will be displayed in left sidebar and navigation
 const links = [
   { text: 'Introduction', link: '/introduction' },
   { text: 'Languages', items: [
     { text: 'JavaScript', link: '/languages/javascript'},
+    { text: 'Rust', link: '/languages/Rust'},
+    { text: 'Java', link: '/languages/Java'},
+    { text: 'HTML CSS', link: '/languages/HTML-CSS'},
+
   ]},
   { text: 'Projects', items: [
     { text: 'Rust todo list', link: '/projects/rust-todo'},
-  ]},
+    { text: 'Java TicTacToe', link: '/projects/Java-TicTacToe'},
+    { text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
+
+    ]},
 ]
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // Update your title and description with user name
+  // Update your title and description with username
   title: "My Progress Report - Alex",
   description: "The training report outlines all the skills acquired during the CFC of computer scientist applications development.",
   cleanUrls: true,
@@ -45,7 +52,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      // Replace link with yor own GitHub repo or github profile
+      // Replace link with yor own GitHub repo or GitHub profile
       { icon: 'github', link: 'https://github.com/Alex-zReeZ/progress-report' }
     ],
 
