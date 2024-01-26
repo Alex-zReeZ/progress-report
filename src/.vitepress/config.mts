@@ -14,6 +14,7 @@ const links = [
     { text: 'Rust todo list', link: '/projects/rust-todo'},
     { text: 'Java TicTacToe', link: '/projects/Java-TicTacToe'},
     { text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
+    { text: 'Web integration', link: '/projects/webIntegration'},
 
     ]},
 ]
@@ -58,7 +59,7 @@ export default defineConfig({
 
     editLink: {
       // Change first part of path to your repo name
-      pattern: 'https://github.com/jobtrek/progress-report/edit/main/src/:path',
+      pattern: 'https://github.com/Alex-zReeZ/progress-report/edit/main/src/:path',
       text: 'Edit this page on GitHub'
     }
   }

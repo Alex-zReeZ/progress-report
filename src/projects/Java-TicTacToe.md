@@ -2,7 +2,7 @@
 
 ## what is the project purpose ?
 
-this project was made to use the java knowledge that we acquire by doing the exercises proposed by Intellj
+This project was made to use the Java knowledge that we acquire by doing the exercises proposed by Intellj.
 
 
 ## How is look like
@@ -23,5 +23,8 @@ this project was made to use the java knowledge that we acquire by doing the exe
 
 ![When a player win](../images/TicTacToe-winner.png)
 
+## How did I do it
 
+This is a very simple Java file, don't need to install anything. \
+and how to develop !
 
