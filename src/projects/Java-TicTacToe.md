@@ -5,7 +5,7 @@
 This project was made to use the Java knowledge that we acquire by doing the exercises proposed by Intellj.
 
 
-## How itk like
+## How it looks like
 
 ### Game Begin
 
@@ -28,3 +28,4 @@ This project was made to use the Java knowledge that we acquire by doing the exe
 This is a very simple Java file, don't need to install anything. \
 and how to develop !
 
+## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/TicTacToe)

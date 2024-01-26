@@ -4,10 +4,14 @@ import {defineConfig} from 'vitepress'
 const links = [
   { text: 'Introduction', link: '/introduction' },
   { text: 'Languages', items: [
-    { text: 'JavaScript', link: '/languages/javascript'},
+    { text: 'JavaScript', link: '/languages/javascript',items: [
+        { text: 'React', link: '/languages/framework/Reactjs'},
+      ]},
     { text: 'Rust', link: '/languages/Rust'},
     { text: 'Java', link: '/languages/Java'},
-    { text: 'HTML CSS', link: '/languages/HTML-CSS'},
+    { text: 'HTML CSS', link: '/languages/HTML-CSS', items: [
+        { text: 'Tailwind', link: '/languages/framework/Tailwindcss'},
+      ]},
 
   ]},
   { text: 'Projects', items: [
@@ -15,6 +19,7 @@ const links = [
     { text: 'Java TicTacToe', link: '/projects/Java-TicTacToe'},
     { text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
     { text: 'Web integration', link: '/projects/webIntegration'},
+    { text: 'Blakiti website', link: '/projects/BlakitiWebsite'},
 
     ]},
 ]

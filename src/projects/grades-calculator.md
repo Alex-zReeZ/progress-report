@@ -1,11 +1,11 @@
-# JavaScript grade calculator  <Badge type="tip" text="JS" />
+# JavaScript grade calculator  <Badge type="tip" text="JS"/>
 
 ## what is the project purpose ?
 
 The purpose of this website is to calculate a student's grades, determining all the necessary averages.
 It serves as a tool to help the student keep track of their grades during their learning.
 
-## How it look like 
+## How it looks like 
 
 ### Without grades added :
 
@@ -45,5 +45,5 @@ Then, you can start working on your project, separating your html code in differ
 
 ![project file tree](../images/gradesviewreact-filetree.png)
 
-## [You can find the GitHub depot here](https://github.com/Alex-zReeZ/grades-calculator-react)
+## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/grades-calculator-react)
 

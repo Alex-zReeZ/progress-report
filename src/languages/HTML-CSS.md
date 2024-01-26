@@ -5,3 +5,7 @@ I also learned how to stylize a website with CSS to make it more visually appeal
 
 I used it to make multiple website, like
 - [Web integration](../projects/webIntegration.md)
+
+
+Framework used :
+- [Tailwind.css](https://tailwindcss.com/)

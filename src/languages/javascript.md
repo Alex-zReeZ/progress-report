@@ -9,4 +9,3 @@ JavaScript project, then we switch to React, a JavaScript framework
 
 Framework used
 - [React.js](https://react.dev)
-- [Tailwind.css](https://tailwindcss.com/)

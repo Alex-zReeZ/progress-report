@@ -12,7 +12,7 @@ hero:
       link: /introduction
     - theme: alt
       text: Github repo
-      link: https://github.com/Alex-zReeZ/progress-report
+      link: https://github.com/Alex-zReeZ?tab=repositories
 
 features:
   - title: My projects

@@ -1,6 +1,6 @@
 # Introduction
 
-Hello 👋, my name is Alex I am a computer scientist specializing in application development.
+Hello 👋, my name is Alex I am a computer scientist trainees specializing in application development.
 
 As a computer scientist specializing in application development, this report aims to document all the projects
 I have undertaken during my apprenticeship.
