@@ -1,5 +1,1 @@
 # JavaScript <Badge type="tip" text="JS" />
-
-
-
-![How looks the TicTacToe in the command line](../images/TicTacToe-incommandeline.png)
