@@ -1,5 +1,7 @@
 # React <Badge type="tip" text="JS" />
 
+## How I used it 
+
 I got the occasion to use React on the [grade calculator](../../projects/grades-calculator.md).
 
 ## What is React js ?
@@ -9,7 +11,3 @@ interactive UIs by using a declarative approach. It allows developers to design 
 to manage and update complex UI structures. React's virtual DOM optimizes performance by updating only the changed parts 
 of the actual DOM. With a strong ecosystem and community support, React is widely used for building efficient and 
 scalable web applications.
-
-## How did I do it
-
-
