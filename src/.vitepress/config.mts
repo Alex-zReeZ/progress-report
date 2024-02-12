@@ -9,6 +9,9 @@ const links = [
       ]},
     { text: 'Rust', link: '/languages/Rust'},
     { text: 'Java', link: '/languages/Java'},
+    { text: 'PHP', link: '/languages/PHP', items: [
+        { text: 'Slim', link: '/languages/framework/Slim'},
+      ]},
     { text: 'HTML CSS', link: '/languages/HTML-CSS', items: [
         { text: 'Tailwind', link: '/languages/framework/Tailwindcss'},
       ]},
@@ -20,6 +23,8 @@ const links = [
     { text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
     { text: 'Web integration', link: '/projects/webIntegration'},
     { text: 'Blakiti website', link: '/projects/BlakitiWebsite'},
+    { text: 'PHP todo list', link: '/projects/Php-Todolist'},
+    { text: 'Slim todo list', link: '/projects/Slim_Todolist'},
 
     ]},
 ]
