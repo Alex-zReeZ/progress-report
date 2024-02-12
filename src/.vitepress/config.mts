@@ -9,7 +9,7 @@ const links = [
       ]},
     { text: 'Rust', link: '/languages/Rust'},
     { text: 'Java', link: '/languages/Java'},
-    { text: 'PHP', link: '/languages/PHP', items: [
+    { text: 'PHP', link: '/languages/Php', items: [
         { text: 'Slim', link: '/languages/framework/Slim'},
       ]},
     { text: 'HTML CSS', link: '/languages/HTML-CSS', items: [
