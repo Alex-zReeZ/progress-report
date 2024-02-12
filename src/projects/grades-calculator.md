@@ -18,6 +18,35 @@ It serves as a tool to help the student keep track of their grades during their 
 
 ## How did I do it
 
+To help me with that, the [React documentation](https://react.dev/learn) really helped me.
+
+### Here is an exemple of my code
+
+
+```tsx
+// Function to render SemesterRow components based on the semesters array
+const renderSemesterRows = () => {
+    // Map through the semesters array to create SemesterRow components
+    return semesters.map((_average, index) => (
+        // Each SemesterRow is associated with a unique key and a semester number
+        <SemesterRow
+            // Callback function to handle the addition of a new average for the current semester
+            onNewAverageAdded={(g) => newAverage(index, g)}
+            key={index} // Unique key for React to efficiently identify each SemesterRow0
+            semesterNumber={index + 1} // Semester number is one-based, so index + 1
+        />
+    ));
+}
+
+```
+
+This code create a new semester each time you click on the button "add semester"
+
+![show the add semester button](../images/addsemesterbutton.png)
+
+
+## How to initiate project
+
 This project is made with the framework called [React.js](https://react.dev) used with 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html). For the aspect of the website,
 I used a framework called [Tailwind.css](https://tailwindcss.com/)

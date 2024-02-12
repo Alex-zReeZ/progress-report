@@ -2,32 +2,14 @@
 
 I got the occasion to use React on the [grade calculator](../../projects/grades-calculator.md).
 
+## What is React js ?
+
+React.js is a JavaScript library for building user interfaces. Developed by Facebook, React simplifies the creation of 
+interactive UIs by using a declarative approach. It allows developers to design reusable components, making it easier 
+to manage and update complex UI structures. React's virtual DOM optimizes performance by updating only the changed parts 
+of the actual DOM. With a strong ecosystem and community support, React is widely used for building efficient and 
+scalable web applications.
+
 ## How did I do it
 
-To help me with that, the [React documentation](https://react.dev/learn) really helped me.
 
-### Here is an exemple of my code
-
-
-```jsx
-// Function to render SemesterRow components based on the semesters array
-const renderSemesterRows = () => {
-    // Map through the semesters array to create SemesterRow components
-    return semesters.map((_average, index) => (
-        // Each SemesterRow is associated with a unique key and a semester number
-        <SemesterRow
-            // Callback function to handle the addition of a new average for the current semester
-            onNewAverageAdded={(g) => newAverage(index, g)}
-            key={index} // Unique key for React to efficiently identify each SemesterRow0
-            semesterNumber={index + 1} // Semester number is one-based, so index + 1
-        />
-    ));
-}
-
-```
-
-This code create a new semester each time you click on the button "add semester" 
-
-![show the add semester button](../../images/addsemesterbutton.png)
-
-## [Go to project](../../projects/grades-calculator.md)
