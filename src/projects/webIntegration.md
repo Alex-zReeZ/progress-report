@@ -1,6 +1,6 @@
 # Web integration <Badge type="tip" text="Html Css" />
 
-## what is the project purpose ?
+## What is the project purpose ?
 
 The purpose of this project was to recreate a website page from a figma mock-up converted to pdf,
 to upgrade our Html and CSS knowledge.

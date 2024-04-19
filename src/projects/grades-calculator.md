@@ -1,6 +1,6 @@
 # JavaScript grade calculator  <Badge type="tip" text="JS"/>
 
-## what is the project purpose ?
+## What is the project purpose ?
 
 The purpose of this website is to calculate a student's grades, determining all the necessary averages.
 It serves as a tool to help the student keep track of their grades during their learning.

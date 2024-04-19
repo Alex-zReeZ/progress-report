@@ -1,6 +1,6 @@
 # Slim todolist <Badge type="tip" text="PHP" />
 
-## what is the project purpose ?
+## What is the project purpose ?
 
 The purpose of this project was to use a PHP framework to learn how to make roots
 
@@ -44,8 +44,8 @@ $app->post('/todo/add', function ($request, $response) {
 
 ```
 
-In this code, I take a todo that was written in the [Entrer a new todo](#how-it-looks-like) input and write it into
-the database, writing a success message or an error message.
+In this code, I take a todo that was written in the [Entrer a new todo](#how-it-looks-like) input, check the input todo length, write it into
+the database if the length is good and finally writing a success message or an error message.
 
 For the database, we used the SQLite database.
 

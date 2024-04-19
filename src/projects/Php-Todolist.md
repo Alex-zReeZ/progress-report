@@ -1,6 +1,6 @@
 # Slim todolist <Badge type="tip" text="PHP" />
 
-## what is the project purpose ?
+## What is the project purpose ?
 
 The purpose of this project was to use a PHP framework to learn how to make roots
 
