@@ -1,4 +1,4 @@
-# Slim todolist <Badge type="tip" text="PHP" />
+# PHP todolist <Badge type="tip" text="PHP" />
 
 ## What is the project purpose ?
 
@@ -7,7 +7,7 @@ The purpose of this project was to use a PHP framework to learn how to make root
 
 ## How did I do it
 
-For that project, I used [Slim](https://www.slimframework.com/) framework.
+For that project, I used vanilla [PHP](https://php.net/).
 
 ### Here is an exemple of my code
 
