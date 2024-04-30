@@ -10,7 +10,7 @@ The purpose of this project was to use a PHP framework to learn how to make root
 
 ## How did I do it
 
-For that project, I used [Slim](../languages/framework/Slim.md) framework.
+For that project, I used [Slim](https://www.slimframework.com/) framework.
 
 ### Here is an exemple of my code
 
