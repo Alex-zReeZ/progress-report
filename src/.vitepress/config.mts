@@ -6,29 +6,29 @@ const links = [
     {
         text: 'Projects', items: [
             {
-                text: 'Rust :', items: [
+                text: 'Rust', items: [
                     {text: 'Rust todo list', link: '/projects/rust-todo'},
                 ]
             },
             {
-                text: 'Java :', items: [
+                text: 'Java', items: [
                     {text: 'Java TicTacToe', link: '/projects/Java-TicTacToe'},
                 ]
             },
             {
-                text: 'Javascript :', items: [
+                text: 'Javascript', items: [
                     {text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
                     {text: 'Ascencio', link: '/projects/ascencio'},
                 ]
             },
             {
-                text: 'Html Css :', items: [
+                text: 'Html Css', items: [
                     {text: 'Web integration', link: '/projects/webIntegration'},
                     {text: 'Blakiti website', link: '/projects/BlakitiWebsite'},
                 ]
             },
             {
-                text: 'PHP :', items: [
+                text: 'PHP', items: [
                     {text: 'PHP todo list', link: '/projects/Php-Todolist'},
                     {text: 'Slim todo list', link: '/projects/Slim_Todolist'},
                 ]
