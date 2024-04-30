@@ -1,7 +1,10 @@
 # Blakiti Website  <Badge type="tip" text="Html css"/>
 
+## What is the project purpose ?
+The purpose of this project was to learn how to use HTML and CSS to create a website, to have a basic knowledge of how to create a website from scratch.
+
 ## How it looks like
-This is the page where I show what the products look like
+This is the page where I show what the products look like, it is only the product. If you want to see the product in detail, you can scroll down to the mock-up.
 ![Page of how the products are presented](../images/screen-produit-p1.png)
 
 Here, I created a "collaboration" page, where I show all the collaboration I did with artist.
@@ -91,7 +94,7 @@ Here is his css which give him his style :
 
 ```
 
-All this is connected by a :
+All this is connected by a link in the index.html file :
 ```html
 <!-- In the <head> of the html -->
 <link href="./css/menu.css" rel="stylesheet" >
