@@ -7,17 +7,17 @@ const links = [
         text: 'Projects', items: [
             {
                 text: 'Rust', items: [
-                    {text: 'Rust todo list', link: '/projects/rust-todo'},
+                    {text: 'todo list', link: '/projects/rust-todo'},
                 ]
             },
             {
                 text: 'Java', items: [
-                    {text: 'Java TicTacToe', link: '/projects/Java-TicTacToe'},
+                    {text: 'TicTacToe', link: '/projects/Java-TicTacToe'},
                 ]
             },
             {
                 text: 'Javascript', items: [
-                    {text: 'JavaScript Grade calculator', link: '/projects/grades-calculator'},
+                    {text: 'Grade calculator', link: '/projects/grades-calculator'},
                     {text: 'Ascencio', link: '/projects/ascencio'},
                 ]
             },
@@ -29,7 +29,7 @@ const links = [
             },
             {
                 text: 'PHP', items: [
-                    {text: 'PHP todo list', link: '/projects/Php-Todolist'},
+                    {text: 'todo list', link: '/projects/Php-Todolist'},
                     {text: 'Slim todo list', link: '/projects/Slim_Todolist'},
                 ]
             },
