@@ -17,12 +17,8 @@ hero:
 features:
   - title: My projects
     details: Different projects I have worked on.
-    link: /projects/grades-calculator
+    link: /introduction
     linkText: See my projects
-  - title: Programming languages
-    details: Programming languages I have worked with.
-    link: /languages/javascript
-    linkText: See learned languages
 ---
 
 
