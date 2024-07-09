@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
-    "preview": "vitepress preview src"
+    "preview": "vitepress preview src",
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.39"
