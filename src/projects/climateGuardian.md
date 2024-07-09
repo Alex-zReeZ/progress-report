@@ -15,7 +15,7 @@ This is the web interface of the login page, with a dark mode implemented in all
 For a question of visibility, we will only show the dark mode of the login page.
 
 | ![login page white](../images/climate-guardian/climateGuardian-login-white.png) | ![login page black](../images/climate-guardian/climateGuardian-login-black.png) |
-|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
+| :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 |                                Login Page white                                 |                                Login Page black                                 |
 
 ### The dashboard :
@@ -42,31 +42,29 @@ And under that, there is the plan with where only this room is located.
 ## Here is an exemple of my code
 
 ```tsx
-
 // Function to get the data from the API
 export const useFetchData = (
-    precision: string,
-    ip: string,
-    from: string,
-    to: string,
+  precision: string,
+  ip: string,
+  from: string,
+  to: string,
 ) => {
-    const [data, setData] = useState<avgData[]>([]);
+  const [data, setData] = useState<avgData[]>([]);
 
-    useEffect(() => {
-        const url = `/postgrest/rpc/avg_date?delta=${precision}&ip=eq.${ip}&and=(date.gte.${from},date.lt.${to})`;
-        fetchWithAuth(url);
-        fetch(url, { headers: { Authorization: `Bearer ${getToken()}` } })
-            .then((response) => response.json())
-            .then((apiData: avgData[]) => {
-                setData(apiData);
-            })
-            .catch((e) => {
-                console.error("Une erreur s'est produite :", e);
-            });
-    }, [from, ip, precision, to]);
-    return data;
+  useEffect(() => {
+    const url = `/postgrest/rpc/avg_date?delta=${precision}&ip=eq.${ip}&and=(date.gte.${from},date.lt.${to})`;
+    fetchWithAuth(url);
+    fetch(url, { headers: { Authorization: `Bearer ${getToken()}` } })
+      .then((response) => response.json())
+      .then((apiData: avgData[]) => {
+        setData(apiData);
+      })
+      .catch((e) => {
+        console.error("Une erreur s'est produite :", e);
+      });
+  }, [from, ip, precision, to]);
+  return data;
 };
-
 ```
 
 The useFetchData function is designed to retrieve data from an API based on specific parameters: precision, IP address, and date range. This function uses React hooks to manage the data fetching process and state management.
