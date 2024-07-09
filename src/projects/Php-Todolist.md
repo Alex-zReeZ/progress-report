@@ -4,13 +4,11 @@
 
 The purpose of this project was to use a PHP framework to learn how to make roots
 
-
 ## How did I do it
 
 For that project, I used vanilla [PHP](https://php.net/). And to keep the data, I used a SQLite database.
 
 ### Here is an exemple of my code
-
 
 ```php
 

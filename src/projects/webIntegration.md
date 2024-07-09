@@ -16,5 +16,4 @@ Then I just started to post the website from the pdf image we had.
 
 ![project file tree](../images/webIntegration-filetree.png)
 
-
 ## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/Integration_web)

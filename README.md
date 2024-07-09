@@ -11,18 +11,18 @@
 1. Create a new repository using this template repository (click on the green button "Use this template").
 2. Clone your new repository on your machine.
 3. Edit your base information :
-    - In `src/.vitpress/config.mts` :
-        - Change the `base` property to your repository name (if you have set a custom repository name).
-        - Change the `title` property with your name or pseudo.
-        - Change the `socialLinks`property with your GitHub repository link.
-        - Change the `editLink` with your repository name.
-    - In `src/index.md` :
-        - Change the `name` property with your name or pseudo.
+   - In `src/.vitpress/config.mts` :
+     - Change the `base` property to your repository name (if you have set a custom repository name).
+     - Change the `title` property with your name or pseudo.
+     - Change the `socialLinks`property with your GitHub repository link.
+     - Change the `editLink` with your repository name.
+   - In `src/index.md` :
+     - Change the `name` property with your name or pseudo.
 4. Install dependencies and run the dev server :
-    ```bash
-    npm install
-    npm run dev
-    ```
+   ```bash
+   npm install
+   npm run dev
+   ```
 5. Then you can make more changes to the Markdown content and see the result in your browser. Don’t forget to check [vitepress Markdown docs](https://vitepress.dev/guide/markdown).
 
 ## How to add your content
@@ -45,4 +45,5 @@ git push
 ```
 
 You can access your website at the following address : `https://<your-github-username>.github.io/<your-repository-name>/`.
+
 > You may need to activate Github Pages in your repository settings and wait a few minutes for the first build to be completed.

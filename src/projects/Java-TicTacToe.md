@@ -4,7 +4,6 @@
 
 This project was made to use the Java knowledge that we acquire by doing the exercises proposed by Intellj.
 
-
 ## How it looks like
 
 ### Game Begin
@@ -15,11 +14,11 @@ This project was made to use the Java knowledge that we acquire by doing the exe
 
 ![First player choose a place](../images/TicTacToe-playerX.png)
 
-###  Second Player :
+### Second Player :
 
 ![Second player choose a place](../images/TicTacToe-playerO.png)
 
-### Winner  
+### Winner
 
 ![When a player win](../images/TicTacToe-winner.png)
 
@@ -54,6 +53,7 @@ static String checkWinner() { // Check the combination to win the game
 }
 
 ```
+
 This is a very simple Java file, don't need to install anything. \
 and how to develop !
 

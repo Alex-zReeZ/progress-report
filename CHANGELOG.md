@@ -1,6 +1,5 @@
 # Changelog
 
-
 ## v1.0.0
 
 [compare changes](https://github.com/jobtrek/progress-report/compare/v1.0.0-rc.1...v1.0.0)
@@ -41,7 +40,6 @@
 
 ## v0.1.1-rc.0
 
-
 ### 🚀 Enhancements
 
 - Add progress report base url ([2666eed](https://github.com/jobtrek/progress-report/commit/2666eed))
@@ -75,4 +73,3 @@
 ### ❤️ Contributors
 
 - Fuzoh <info@bastiennicoud.ch>
-

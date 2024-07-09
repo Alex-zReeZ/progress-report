@@ -4,16 +4,16 @@
 
 This project was made to use the Rust knowledge that we acquire by doing the exercises proposed by Intellj.
 
-
 For the realisation of this project, I use [Rust documentation](https://doc.rust-lang.org/book/).
 
 ## How it look like
+
 \
 ![Rust Todo in command line](../images/screen-rust-todo.png)
 
 ## How did I do it
 
-```rust 
+```rust
 
 // This function, 'display_todos', prints the titles of the last 5 added todos.
 fn display_todos(&self) {
@@ -28,23 +28,22 @@ fn display_todos(&self) {
 }
 
 ```
+
 Here is a snippet of my todo list code, this snippet is a function that when it is called,
 show all the todos.
-
 
 ## How to initiate project
 
 You simply need to creat a new Rust project
 
 ```shell
-# Rust project creation 
+# Rust project creation
 cargo new folder_name --bin
 
-# Execute program 
+# Execute program
 cargo run
 
 
 ```
 
-
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todolist  )
+## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todolist)

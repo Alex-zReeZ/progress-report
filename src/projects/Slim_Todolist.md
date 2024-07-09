@@ -14,7 +14,6 @@ For that project, I used [Slim](https://www.slimframework.com/) framework.
 
 ### Here is an exemple of my code
 
-
 ```php
 
 // Add a new todo
@@ -64,12 +63,12 @@ php -r "unlink('composer-setup.php');"
 # After that, you are gonna install Slim with "require"
 composer require slim/slim:"4.*"
 
-# With slim, you will need the PSR-7 
+# With slim, you will need the PSR-7
 composer require slim/psr7
 
 
 ```
 
-If something doesn't work, check [Slim](https://www.slimframework.com/docs/v4/start/installation.html) documentation 
+If something doesn't work, check [Slim](https://www.slimframework.com/docs/v4/start/installation.html) documentation
 
 ## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todolist-slim-twig)

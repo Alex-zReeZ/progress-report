@@ -20,6 +20,3 @@ features:
     link: /introduction
     linkText: See my projects
 ---
-
-
-
