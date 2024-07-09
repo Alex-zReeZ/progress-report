@@ -9,4 +9,4 @@ Throughout this report, I will present the various stages of the development pro
 
 This report provides a retrospective of the projects undertaken, detailing my language skill advancements.
 
-I am currently working on a web grade calculator using React, TypeScript, Tailwind.
+I am currently working on a web application for the Musée Bolo of the EFPL using Next.js, React, TypeScript, Tailwind.
