@@ -7,8 +7,11 @@ const links = [
     text: "Projects",
     items: [
       {
-        text: "Rust",
-        items: [{ text: "todo list", link: "/projects/rust-todo" }],
+        text: "Html Css",
+        items: [
+          { text: "Web integration", link: "/projects/webIntegration" },
+          { text: "Blakiti website", link: "/projects/BlakitiWebsite" },
+        ],
       },
       {
         text: "Java",
@@ -21,18 +24,15 @@ const links = [
         ],
       },
       {
-        text: "Html Css",
-        items: [
-          { text: "Web integration", link: "/projects/webIntegration" },
-          { text: "Blakiti website", link: "/projects/BlakitiWebsite" },
-        ],
-      },
-      {
         text: "PHP",
         items: [
           { text: "todo list", link: "/projects/Php-Todolist" },
           { text: "Slim todo list", link: "/projects/Slim_Todolist" },
         ],
+      },
+      {
+        text: "Rust",
+        items: [{ text: "todo list", link: "/projects/rust-todo" }],
       },
       {
         text: "Website",
