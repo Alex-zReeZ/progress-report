@@ -26,13 +26,19 @@ const links = [
       {
         text: "PHP",
         items: [
-          { text: "todo list", link: "/projects/Php-Todolist" },
+          { text: "Todo list", link: "/projects/Php-Todolist" },
           { text: "Slim todo list", link: "/projects/Slim_Todolist" },
         ],
       },
       {
+        text: "Python",
+        items: [
+          { text: "Todo list", link: "/projects/python-todo" },
+        ],
+      },
+      {
         text: "Rust",
-        items: [{ text: "todo list", link: "/projects/rust-todo" }],
+        items: [{ text: "Todo list", link: "/projects/rust-todo" }],
       },
       {
         text: "Website",
