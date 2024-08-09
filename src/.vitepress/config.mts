@@ -37,6 +37,7 @@ const links = [
       {
         text: "Website",
         items: [
+          { text: "Ascencio", link: "/projects/ascencio" },
           { text: "Climate Guardian", link: "/projects/climateGuardian" },
         ],
       },
