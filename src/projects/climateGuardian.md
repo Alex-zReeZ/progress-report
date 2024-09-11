@@ -2,9 +2,10 @@
 
 ## What is the project purpose ?
 
-This project was made for the non-profit organization memoires-informatiques
+This project was made for the non-profit organization named memoires-informatiques.
 Memoires-informatiques has a lot of old computers and other electronic devices that need to be stored in a controlled environment
 The goal of this project is to monitor the temperature and humidity of the different rooms of the organization and to display the data on a web interface
+So this project is more of an interface, which you can't find on the internet.
 
 ## How it looks like
 
