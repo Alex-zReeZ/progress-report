@@ -45,6 +45,7 @@ const links = [
         items: [
           { text: "Ascencio", link: "/projects/ascencio" },
           { text: "Climate Guardian", link: "/projects/climateGuardian" },
+          { text: "GradiX", link: "/projects/gradix" },
         ],
       },
     ],
