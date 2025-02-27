@@ -44,8 +44,11 @@ const links = [
         text: "Website",
         items: [
           { text: "Ascencio", link: "/projects/ascencio" },
+          { text: "BDRP", link: "/projects/bdrp" },
           { text: "Climate Guardian", link: "/projects/climateGuardian" },
+          { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
           { text: "GradiX", link: "/projects/gradix" },
+          { text: "Scolcast", link: "/projects/scolcast" },
         ],
       },
     ],

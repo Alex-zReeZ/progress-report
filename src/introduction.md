@@ -9,4 +9,4 @@ Throughout this report, I will present the various stages of the development pro
 
 This report provides a retrospective of the projects undertaken, detailing my language skill advancements.
 
-I am currently making a grade calculator app for school grades, using Django rest framework, React for the frontend of the app and tailwind for the style
+I am currently working on the development of a dashboard designed for the employees at my workplace.
