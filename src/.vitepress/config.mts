@@ -1,4 +1,4 @@
-import {defineConfig} from "vitepress";
+import { defineConfig } from "vitepress";
 
 // Will be displayed in left sidebar and navigation
 const links = [
@@ -15,12 +15,14 @@ const links = [
             { text: "Todo list", link: "/projects/python-todo" },
             { text: "Todo list", link: "/projects/rust-todo" },
             { text: "Ascencio", link: "/projects/ascencio" },
-            { text: "BDRP", link: "/projects/bdrp" },
             { text: "Climate Guardian", link: "/projects/climateGuardian" },
-            { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
             { text: "GradiX", link: "/projects/gradix" },
+            { text: "Steriparc", link: "projects/steriparc" },
+            { text: "Gérifonds", link: "projects/gerifonds" },
+            { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
+            { text: "Ergopix", link: "/projects/ergopix" },
+            { text: "BDRP", link: "/projects/bdrp" },
             { text: "Scolcast", link: "/projects/scolcast" },
-            { text: "", link: "" },
         ],
     },
 ];
