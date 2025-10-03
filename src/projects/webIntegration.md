@@ -3,16 +3,18 @@
 ## What is the project purpose ?
 
 The purpose of this project was to recreate a website page from a figma mock-up converted to pdf,
-to upgrade our Html and CSS knowledge.
+to upgrade our HTML and CSS knowledge.
 
-## How it look like
+## What it look like
 
 ![what the webSite looks like :](../images/Home%20Page.png)
+This is the template of the website we had to recreate. But we had to fix it. As you can see there are some mistakes in the design. 
+Unaligned text, box different size, etc...
 
-## How did I do it
+## How did I do it ?
 
-Created a simple directory with a html and CSS file with a picture directory. \
-Then I just started to post the website from the pdf image we had.
+Create a simple directory with an HTML and CSS file with a picture directory. \
+Then I just started to create the website from the PDF image we had.
 
 ![project file tree](../images/webIntegration-filetree.png)
 

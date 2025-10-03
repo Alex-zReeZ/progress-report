@@ -1,4 +1,4 @@
-# Scolcast <Badge type="tip" text="Drupal 10" />
+# Scolcast <Badge type="tip" text="Drupal 11" />
 
 ## What is the project purpose ?
 
