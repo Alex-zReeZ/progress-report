@@ -9,7 +9,7 @@ The purpose of this project was to learn how to use HTML and CSS to create a web
 This is the page where I show what the products look like, it is only the product. If you want to see the product in detail, you can scroll down to the mock-up.
 ![Page of how the products are presented](../images/screen-produit-p1.png)
 
-Here, I created a "collaboration" page, where I show all the collaboration I did with artist.
+Here, I created a "collaboration" page, where I show all the collaboration I did with artist (fake one).
 ![all the artist I worked with](../images/collaboration-blakiti.png)
 
 ## How did I do it

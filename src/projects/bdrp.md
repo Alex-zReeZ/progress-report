@@ -12,4 +12,10 @@ The version I work on is not yet deployed, but my task was to fix the style erro
 
 For this project, we use Drupal 9 using scss and bootstrap 5 for the style.
 
+## Operational Competencies Acquired
+
+The need for this project was to recreate the BDRP website using Drupal 9 as the CMS. The goal was to improve the site's performance, user experience, and finally to give a little update to the old website template.
+
+As said before, my task was to fix style errors and display other data. So I first needed to analyze the new website content and structure as it was new to me.
+
 ## You can find the [Website here](https://www.bdrp.ch/)

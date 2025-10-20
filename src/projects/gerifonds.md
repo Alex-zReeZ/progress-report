@@ -10,4 +10,8 @@ I did not participate in the creation of the deployment of it. Later I created a
 
 I used Drupal 9, PHP and MySQL to create the webservices. Requesting the database to return the documents depending on the type and lang. Always returning the last document added ignoring the precedent.
 
+## Operational Competencies Acquired
+
+I first had to understand the existing Drupal architecture and scripts that were already in place for others webservices, using them as a base for my own one.
+
 ## You can find the real [Website here](https://www.gerifonds.ch)
