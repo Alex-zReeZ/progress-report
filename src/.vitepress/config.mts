@@ -23,6 +23,9 @@ const links = [
             { text: "Ergopix", link: "/projects/ergopix" },
             { text: "BDRP", link: "/projects/bdrp" },
             { text: "Scolcast", link: "/projects/scolcast" },
+            { text: "PressAI", link: "/projects/press-ai" },
+            { text: "Wordpress Headless", link: "/projects/harvest-46966575" },
+            { text: "Strapi", link: "/projects/harvest-47247180" },
         ],
     },
 ];
