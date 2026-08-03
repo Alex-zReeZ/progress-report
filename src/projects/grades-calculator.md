@@ -9,11 +9,11 @@ It serves as a tool to help the student keep track of their grades during their 
 
 ### Without grades added :
 
-![grade calculator screenshot](../images/grade-calculator-image.png)
+![grade calculator screenshot](../images/grade-calculator/grade-calculator-image.png)
 
 ### With grades added :
 
-![semester row with grades](../images/grade-calculator-exemple.png)
+![semester row with grades](../images/grade-calculator/grade-calculator-exemple.png)
 
 ## How did I do it
 
@@ -39,7 +39,7 @@ const renderSemesterRows = () => {
 
 This code create a new semester each time you click on the button "add semester"
 
-![show the add semester button](../images/addsemesterbutton.png)
+![show the add semester button](../images/grade-calculator/addsemesterbutton.png)
 
 ## How to initiate project
 
@@ -68,6 +68,6 @@ For configuring Tailwind.css in your files, follow [these instructions](https://
 
 Then, you can start working on your project, separating your html code in different component which look like that for me :
 
-![project file tree](../images/gradesviewreact-filetree.png)
+![project file tree](../images/grade-calculator/gradesviewreact-filetree.png)
 
 ## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/grades-calculator-react)

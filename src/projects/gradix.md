@@ -13,23 +13,23 @@ To do that, I used the Django rest framework for the backend and React for the f
 
 This is the web interface of the login page
 
-![login page](../images/DjangoGradeApp_login.png)
+![login page](../images/GradiX/DjangoGradeApp_login.png)
 
 ### The dashboard :
 
 Then we arrive on the dashboard, where we can see the different subjects and the grade we have in it.
 We can also see the average of all the subjects when clicking on the "Year data" button.
 
-![dashboard](../images/DjangoGradeApp_dashboard.png)
+![dashboard](../images/GradiX/DjangoGradeApp_dashboard.png)
 
-![Year data page](../images/DjangoGradeApp_yearData.png)
+![Year data page](../images/GradiX/DjangoGradeApp_yearData.png)
 
 ### The subject page :
 
 Here is the subject page, where you can see the different information about the subject. You can see all your grades, 
 add and delete grades, and see the average of your grades.
 
-![subject page](../images/DjangoGradeApp_main.png)
+![subject page](../images/GradiX/DjangoGradeApp_main.png)
 
 ## Here is an exemple of my code
 
