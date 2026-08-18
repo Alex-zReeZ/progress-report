@@ -6,26 +6,52 @@ const links = [
     {
         text: "Projects",
         items: [
-            { text: "Web integration", link: "/projects/webIntegration" },
-            { text: "Blakiti website", link: "/projects/BlakitiWebsite" },
-            { text: "TicTacToe", link: "/projects/Java-TicTacToe" },
-            { text: "Grade calculator", link: "/projects/grades-calculator" },
-            { text: "Todo list", link: "/projects/Php-Todolist" },
-            { text: "Slim todo list", link: "/projects/Slim_Todolist" },
-            { text: "Todo list", link: "/projects/python-todo" },
-            { text: "Todo list", link: "/projects/rust-todo" },
-            { text: "Ascencio", link: "/projects/ascencio" },
-            { text: "Climate Guardian", link: "/projects/climateGuardian" },
-            { text: "GradiX", link: "/projects/gradix" },
-            { text: "Steriparc", link: "projects/steriparc" },
-            { text: "Gérifonds", link: "projects/gerifonds" },
-            { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
-            { text: "Ergopix", link: "/projects/ergopix" },
-            { text: "BDRP", link: "/projects/bdrp" },
-            { text: "Scolcast", link: "/projects/scolcast" },
-            { text: "PressAI", link: "/projects/press-ai" },
-            { text: "Wordpress Headless", link: "/projects/harvest-46966575" },
-            { text: "Strapi", link: "/projects/harvest-47247180" },
+            {
+                text: "centre de formation",
+                collapsed: true,
+                items: [
+                    {
+                        text: "Exercices",
+                        collapsed: true,
+                        items: [
+                            { text: "Web integration", link: "/projects/webIntegration" },
+                            { text: "Blakiti website", link: "/projects/BlakitiWebsite" },
+                            { text: "TicTacToe", link: "/projects/Java-TicTacToe" },
+                            { text: "Grade calculator", link: "/projects/grades-calculator" },
+                            { text: "Todo list", link: "/projects/Php-Todolist" },
+                            { text: "Slim todo list", link: "/projects/Slim_Todolist" },
+                            { text: "Todo list", link: "/projects/python-todo" },
+                            { text: "Todo list", link: "/projects/rust-todo" },
+                        ]
+                    },
+                    {
+                        text: "Projets",
+                        collapsed: false,
+                        items: [
+                            { text: "GradiX", link: "/projects/gradix" },
+                            { text: "Ascencio", link: "/projects/ascencio" },
+                            { text: "Climate Guardian", link: "/projects/climateGuardian" },
+                        ]
+                    },
+                ],
+            },
+            {
+                text: "Ergopix",
+                collapsed: false,
+                items: [
+                    { text: "Headless Steriparc", link: "projects/steriparc" },
+                    { text: "Gérifonds", link: "projects/gerifonds" },
+                    { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
+                    { text: "Ergopix 2026", link: "/projects/ergopix26" },
+                    { text: "BDRP", link: "/projects/bdrp" },
+                    { text: "Scolcast", link: "/projects/scolcast" },
+                    { text: "PressAI", link: "/projects/press-ai" },
+                    { text: "Project 47247180", link: "/projects/harvest-47247180" },
+/*
+                    {text: "Séance Studio", link: "/projects/seance-studio"},
+*/
+                ]
+            },
         ],
     },
 ];
@@ -43,6 +69,7 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        // @ts-ignore
         nav: [{text: "Home", link: "/"}, ...links],
 
         outline: [2, 3],
