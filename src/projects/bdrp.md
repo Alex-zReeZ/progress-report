@@ -1,21 +1,35 @@
 # BDRP <Badge type="tip" text="Drupal 9" />
 
-## What is the project purpose ?
+## Purpose
 
-The BDRP (Banque de Ressources de l'École pour les Jeunes) is a resource bank created by the school to provide younger students with educational materials, tools, and support to help them in their learning journey.
+The BDRP (Banque de Ressources de l'École pour les Jeunes) is a platform whose main purpose is
+to let teachers share teaching materials with one another, storing the exercises and
+worksheets they create so colleagues can access and reuse them for more efficient practice. As
+a secondary, lighter goal, it also gives parents a window into what their children are working
+on.
 
-This project was designed to provide teachers with a platform to share and store the exercises they create, enabling them to access and use worksheets from other teachers for more efficient practice.
+## Technologies
 
-The version I work on is not yet deployed, but my task was to fix the style errors, and displaying other data.
+- Drupal 9
+- SCSS
+- Bootstrap 5
 
-## How did I do it
+## My role
 
-For this project, we use Drupal 9 using scss and bootstrap 5 for the style.
+The site was, for the most part, already built. My work focused on the presentation layer, but
+it went beyond plain styling: alongside refining the look with SCSS and Bootstrap 5 to match the
+client's feedback, I wrote PHP scripts in Drupal's `.theme` and `.module` files to change how
+data was rendered — including on the back-end display. Since the codebase was new to me, I first
+had to get familiar with the site's content and structure before making those adjustments.
 
 ## Operational Competencies Acquired
 
-The need for this project was to recreate the BDRP website using Drupal 9 as the CMS. The goal was to improve the site's performance, user experience, and finally to give a little update to the old website template.
+Starting from an interface that was already in place, I adapted it to the client's design
+feedback, reworking the styling with SCSS and Bootstrap 5 and adjusting the display until it
+matched what the client wanted.
 
-As said before, my task was to fix style errors and display other data. So I first needed to analyze the new website content and structure as it was new to me.
+Beyond the styling, I implemented the required display changes in code, writing PHP in Drupal's
+`.theme` and `.module` files (preprocess functions and hooks) to alter how content was rendered
+on both the front-end and the back-end.
 
 ## You can find the [Website here](https://www.bdrp.ch/)
