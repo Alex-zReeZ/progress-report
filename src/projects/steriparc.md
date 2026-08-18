@@ -1,20 +1,41 @@
-# Steriparc <Badge type="tip" text="WP/React" />
+# Headless Steriparc <Badge type="tip" text="WP/React" />
 
-## What is the project purpose ?
+## Purpose
 
-Steriparc is a Swiss company specializing in the sterilization and maintenance of medical instruments. They offer a range of services to healthcare professionals, including sterilization, repair, and maintenance of surgical instruments and medical devices. Steriparc aims to ensure that medical instruments are safe, reliable, and compliant with industry standards.
-I did not participate in the creation of the real website, but I created a clone of the website to practice my skills in WordPress and React.
+Steriparc is a Swiss company specializing in the sterilization and maintenance of medical
+instruments. It offers healthcare professionals sterilization, repair, and maintenance for
+surgical instruments and medical devices.
 
+I wasn't involved in the real website. This project is a personal clone I built to practice my
+WordPress and React skills, with one idea in mind: try out a headless WordPress setup and
+eventually compare it against the real site, which is built entirely on classic WordPress, on
+things like loading and computation time. It stayed at the experiment stage, though. I only
+built the home page, and the comparison itself was never actually carried out.
 
-## How did I do it
+## Technologies
 
-Using WordPress as a headless CMS, I fetched the data using the WordPress REST API and displayed it using React.
+- WordPress (headless CMS)
+- React
+- WordPress REST API
+
+## How it works
+
+WordPress runs as a headless CMS, holding the content only. I fetched that content through the
+WordPress REST API and rendered the home page with a React front-end. This was meant to be the
+starting point for a comparison against the classic WordPress version that I never got the time
+to run.
 
 ## Operational Competencies Acquired
 
-The need for this project was to recreate a functional clone of the Steriparc website using WordPress as a headless CMS and React for the front-end.
-The goal was to compare the performance and flexibility of a headless architecture with a traditional WordPress setup.
+Building the headless home page served as a proof of concept. It was a first, hands-on check
+that a headless WordPress and React approach was viable, and the intended groundwork for a
+later performance comparison with the classic WordPress site. That comparison was never
+actually performed.
 
-I had to verify the technical feasibility of user interfaces and develop theme and then designed and implemented the user interface in React, integrating design and interactions.
+On the front-end side, I verified the technical feasibility of the interface, then designed and
+implemented the home page in React, integrating the layout and interactions to reproduce the
+original.
 
-## You can find the real [Website here](https://www.steriparc.ch)
+## Live site
+
+You can find the real website [here](https://www.steriparc.ch).
