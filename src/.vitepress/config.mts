@@ -81,14 +81,7 @@ export default defineConfig({
 
         socialLinks: [
             // Replace link with yor own GitHub repo or GitHub profile
-            {icon: "github", link: "https://github.com/Alex-zReeZ/progress-report"},
+            {icon: "github", link: "https://github.com/Alex-zReeZ"},
         ],
-
-        editLink: {
-            // Change first part of path to your repo name
-            pattern:
-                "https://github.com/Alex-zReeZ/progress-report/edit/main/src/:path",
-            text: "Edit this page on GitHub",
-        },
     },
 });
