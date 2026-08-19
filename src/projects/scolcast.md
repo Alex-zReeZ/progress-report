@@ -1,19 +1,42 @@
 # Scolcast <Badge type="tip" text="Drupal 11" />
 
-## What is the project purpose ?
+## Purpose
 
-Scolcast is an educational podcasting platform designed for schools and educators. It allows teachers and students to create, share, and listen to audio content related to various subjects. The platform helps integrate digital media into learning, making it easier to access educational resources in an audio format.
+Scolcast is an educational podcasting platform for schools and educators. It lets teachers and
+students create, share, and listen to audio content tied to their subjects, making it easier to
+bring digital audio into learning and to access educational resources in an audio format.
 
-This project is a remake of the old version. The version I’m working on has not yet been deployed or put into production. My task is to create the page templates and develop scripts to import data from the current version.
+This project is a full rebuild of the current site. The version I'm working on hasn't been
+deployed or put into production yet. I handled the early stages of the rebuild: recreating the
+content structure on the new instance and building the front-end.
 
-## How did I do it
+## Technologies
 
-For this project, we used durpal 10, scss and bootstrap 5
+- Drupal 10
+- SCSS
+- Bootstrap 5
+- Twig
+
+## My role
+
+I did the groundwork for the rebuild. First, I analyzed the content-type fields of the current
+site so I could recreate them on the new instance, rebuilding the matching content types and
+taxonomies. I also reworked the user information architecture to fit new legal constraints.
+
+I then developed the entire front-end, writing Twig templates that render the content
+dynamically. Using Twig's `{% %}` logic for loops and conditionals, the pages stay driven by the
+underlying data rather than being hard-coded. On top of the templates, I configured the search
+facets for the search bar and integrated a video player on the home page with video.js, a
+library I had to learn for this project.
 
 ## Operational Competencies Acquired
 
-The need for this project was to recreate the Scolcast website using Drupal 10 as the CMS. The goal was to improve the site's performance, user experience, and finally to give a little update to the old website template.
+To match the existing site, I analyzed its content-type fields and modelled the new structure,
+recreating the content types and taxonomies on the Drupal instance.
 
-First I needed to analyze the existing website content structure and create the new content types and taxonomies in Drupal 10 to match the old website. I also had to rethink the user information architecture to adapt to the new legal constraints.
+I developed the full front-end by writing Twig templates that render the content dynamically,
+turning the modelled data into the site's pages.
 
-## You can find the [Website here](https://www.scolcast.ch)
+## Live site
+
+You can find the current website [here](https://www.scolcast.ch).
