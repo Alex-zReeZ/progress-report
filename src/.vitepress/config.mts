@@ -39,17 +39,29 @@ const links = [
                 text: "Ergopix",
                 collapsed: false,
                 items: [
-                    { text: "Headless Steriparc", link: "projects/steriparc" },
-                    { text: "Gérifonds", link: "projects/gerifonds" },
-                    { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
-                    { text: "Ergopix 2026", link: "/projects/ergopix26" },
-                    { text: "BDRP", link: "/projects/bdrp" },
-                    { text: "Scolcast", link: "/projects/scolcast" },
-                    { text: "PressAI", link: "/projects/press-ai" },
-                    { text: "Project 47247180", link: "/projects/harvest-47247180" },
+                    {
+                        text: "Expérimentation",
+                        collapsed: true,
+                        items: [
+                            { text: "PressAI", link: "/projects/press-ai" },
+                            { text: "Headless Steriparc", link: "projects/steriparc" },
+                            { text: "Project 47247180", link: "/projects/harvest-47247180" },
+                        ]
+                    },
+                    {
+                        text: "Projets",
+                        collapsed: false,
+                        items: [
+                            { text: "Gérifonds", link: "projects/gerifonds" },
+                            { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
+                            { text: "Ergopix 2026", link: "/projects/ergopix26" },
+                            { text: "BDRP", link: "/projects/bdrp" },
+                            { text: "Scolcast", link: "/projects/scolcast" },
 /*
-                    {text: "Séance Studio", link: "/projects/seance-studio"},
+                            {text: "Séance Studio", link: "/projects/seance-studio"},
 */
+                        ]
+                    },
                 ]
             },
         ],
