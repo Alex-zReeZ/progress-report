@@ -1,17 +1,27 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Rust todo list <Badge type="tip" text="Rust" />
 
-## What is the project purpose ?
+## Purpose
 
-This project was made to use the Rust knowledge that we acquire by doing the exercises proposed by Intellj.
+A todo list running in the command line, written to put into practice the Rust notions covered by the
+IntelliJ exercises. I built it on my own, using the [Rust documentation](https://doc.rust-lang.org/book/)
+as reference.
 
-For the realisation of this project, I use [Rust documentation](https://doc.rust-lang.org/book/).
+## Technologies
 
-## How it look like
+- Rust
 
-\
-![Rust Todo in command line](../../images/screen-rust-todo.png)
+## How it works
 
-## How did I do it
+The todos are held in a structure that owns the list, and the display walks that list backwards so
+the five most recent entries come out first, numbered from one for the reader rather than from the
+index they occupy.
 
 ```rust
 
@@ -29,21 +39,15 @@ fn display_todos(&self) {
 
 ```
 
-Here is a snippet of my todo list code, this snippet is a function that when it is called,
-show all the todos.
+## Screens
 
-## How to initiate project
+![Rust Todo in command line](../../images/screen-rust-todo.png)
 
-You simply need to creat a new Rust project
+## Operational Competencies Acquired
 
-```shell
-# Rust project creation
-cargo new folder_name --bin
+I implemented the program in Rust, including the storage of the todos in memory and the commands that
+add and display them.
 
-# Execute program
-cargo run
+## Source code
 
-
-```
-
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todolist)
+The repository is available [here](https://github.com/Alex-zReeZ/todolist).

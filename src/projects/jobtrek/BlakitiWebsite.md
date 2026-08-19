@@ -1,24 +1,47 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Blakiti Website <Badge type="tip" text="Html css"/>
 
-## What is the project purpose ?
+## Purpose
 
-The purpose of this project was to learn how to use HTML and CSS to create a website, to have a basic knowledge of how to create a website from scratch.
+Blakiti is a fictional brand of engraved wooden objects, used as the subject of a training exercise
+on building a website from scratch. The site presents the products and shows the artists the brand
+collaborates with, all of them invented for the exercise. I did the whole project, from the mock-up
+to the finished pages.
 
-## How it looks like
+## Technologies
 
-This is the page where I show what the products look like, it is only the product. If you want to see the product in detail, you can scroll down to the mock-up.
+- HTML
+- CSS
+- Figma
+
+## How it works
+
+I started with a mock-up in [Figma](https://www.figma.com/file/gEXFCc3bPYPzL4NK860PjI/Untitled?type=design&node-id=0%3A1&mode=design&t=qXVjhaH8kzigYXW2-1),
+covering every page before writing any code, then reproduced it in plain HTML and CSS. Each page
+links its stylesheets from its head, and the recurring blocks (a product, an artist card) are built
+as a repeated structure styled by a single class.
+
+## Screens
+
+The products page:
+
 ![Page of how the products are presented](../../images/screen-produit-p1.png)
 
-Here, I created a "collaboration" page, where I show all the collaboration I did with artist (fake one).
+The collaboration page:
+
 ![all the artist I worked with](../../images/collaboration-blakiti.png)
 
-## How did I do it
+The mock-up the pages were built from:
 
-first, I needed to make a mock-up, which I did on [figma](https://www.figma.com/file/gEXFCc3bPYPzL4NK860PjI/Untitled?type=design&node-id=0%3A1&mode=design&t=qXVjhaH8kzigYXW2-1) (link show the figma mock-up if you want to see details)
 ![figma mock-up of all the website](../../images/global-mock-up.png)
 
-Then, All I needed was to use Html and css to make it. <br><br>
-This is how the collaborator part looks like in Html :
+Here is the markup of one artist card:
 
 ```html
 <!-- We put all that in a <div> -->
@@ -43,23 +66,10 @@ This is how the collaborator part looks like in Html :
 </div>
 ```
 
-Here is his css which give him his style :
+And the CSS that gives the section its layout, the cards flowing on several rows when the screen
+gets narrower:
 
 ```css
-/* Styling for the collaboration section */
-.collaboration-section {
-  background-color: #f8f8f8;
-  padding: 50px;
-  text-align: center;
-}
-
-/* Styling for the title of the collaboration section */
-.collaboration-title {
-  font-size: 2em;
-  color: #333;
-  margin-bottom: 20px;
-}
-
 /* Styling for the container of individual artist items */
 .collaboration-item {
   display: flex;
@@ -82,24 +92,14 @@ Here is his css which give him his style :
   color: #555;
   margin-bottom: 10px;
 }
-
-/* Styling for the artist's description */
-.artist-description {
-  color: #777;
-  text-align: justify;
-}
-
-/* Styling for the artist's photo */
-.artist-photo {
-  width: 300px;
-}
 ```
 
-All this is connected by a link in the index.html file :
+## Operational Competencies Acquired
 
-```html
-<!-- In the <head> of the html -->
-<link href="./css/menu.css" rel="stylesheet" />
-```
+I designed the interface as a mock-up first, checked that what I had drawn could actually be built
+with the techniques I had, then developed it into working pages, including the behaviour of the
+cards when the available width changes.
 
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/Blakiti-Website)
+## Source code
+
+The repository is available [here](https://github.com/Alex-zReeZ/Blakiti-Website).

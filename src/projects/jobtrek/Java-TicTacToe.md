@@ -1,28 +1,27 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Java TicTacToe <Badge type="tip" text="Java" />
 
-## What is the project purpose ?
+## Purpose
 
-This project was made to use the Java knowledge that we acquire by doing the exercises proposed by Intellj.
+This is a tic tac toe played by two people in the command line, written to put into practice the
+Java notions covered by the IntelliJ exercises. I wrote the whole program.
 
-## How it looks like
+## Technologies
 
-### Game Begin
+- Java
 
-![How looks the TicTacToe in the command line](../../images/ticTacToe/TicTacToe-incommandeline.png)
+## How it works
 
-### First player :
-
-![First player choose a place](../../images/ticTacToe/TicTacToe-playerX.png)
-
-### Second Player :
-
-![Second player choose a place](../../images/ticTacToe/TicTacToe-playerO.png)
-
-### Winner
-
-![When a player win](../../images/ticTacToe/TicTacToe-winner.png)
-
-## How did I do it
+The board is an array of nine cells. The winning positions are written once as a list of three digit
+combinations, and after each move the program rebuilds the sequence of symbols sitting at those three
+positions and compares it with a full row of X or of O. If no combination matches and no cell is
+left empty, the game is a draw.
 
 ```Java
 
@@ -54,7 +53,27 @@ static String checkWinner() { // Check the combination to win the game
 
 ```
 
-This is a very simple Java file, don't need to install anything. \
-and how to develop !
+## Screens
 
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/TicTacToe)
+The board as it is printed when the game starts:
+
+![How looks the TicTacToe in the command line](../../images/ticTacToe/TicTacToe-incommandeline.png)
+
+The two players take their turn, X first:
+
+| ![First player choose a place](../../images/ticTacToe/TicTacToe-playerX.png) | ![Second player choose a place](../../images/ticTacToe/TicTacToe-playerO.png) |
+| :--------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+|                             The first player plays                            |                            The second player plays                            |
+
+And the end of the game:
+
+![When a player win](../../images/ticTacToe/TicTacToe-winner.png)
+
+## Operational Competencies Acquired
+
+I implemented the program in Java, including the game loop, the reading of the players' moves and the
+detection of a win or a draw.
+
+## Source code
+
+The repository is available [here](https://github.com/Alex-zReeZ/TicTacToe).

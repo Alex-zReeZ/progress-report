@@ -1,21 +1,26 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Todo list <Badge type="tip" text="Py" />
 
-## What is the project purpose ?
+## Purpose
 
-the purpose of this project was to create a todo list in python. The todo list is a simple list of tasks that you can 
-add, remove and mark as done. This was to learn the basics of python and how to create a simple program with it for a future project.
+A todo list running in the terminal, where tasks can be added, removed and marked as done. I wrote it
+to get the basics of Python in place before using the language on a larger project.
 
-## How it looks like
+## Technologies
 
-![The todo list](../../images/python-todo/TodoList.png)
+- Python
 
-## How did I do it
+## How it works
 
-As I said, it is a very simple program. I used the `input()` function to get the user input and a list to store the tasks.
-Then I used a `while` loop to keep the program running until the user wants to quit.
-All of that commended by functions to make the code more readable.
-
-### Here is an exemple of my code
+The tasks live in two lists, the active ones and the archived ones. A loop keeps asking the user what
+they want to do and calls the matching function until they choose to quit, each operation being kept
+in its own function rather than inline in the loop.
 
 ```python
 # Here I created two lists to store the active and archived tasks
@@ -29,8 +34,15 @@ def add_task():
     print("Task added successfully")
 ```
 
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/python-todolist)
+## Screens
 
+![The todo list](../../images/python-todo/TodoList.png)
 
+## Operational Competencies Acquired
 
+I implemented the program in Python, splitting it into functions for each operation on the task
+lists.
 
+## Source code
+
+The repository is available [here](https://github.com/Alex-zReeZ/python-todolist).

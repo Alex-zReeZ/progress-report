@@ -1,20 +1,36 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Ascencio <Badge type="tip" text="Js" />
 
-## What is the project purpose ?
+## Purpose
 
-The purpose of this project was to create the website for the product of the company Jobtrek named Ascencio.
-The website is a showcase of the product and the company.
+Ascencio is a product built by Jobtrek. This project is the public website that presents it, acting
+both as a showcase for the product and as a presentation of the company behind it. I built the site.
 
-## How it looks like
+## Technologies
+
+- Astro
+
+## How it works
+
+Astro renders the pages ahead of time and serves them as static HTML, while still allowing the
+content of those pages to be generated from data rather than written by hand in each file.
+
+## Screens
 
 ![The home page](../../images/AscencioHomePage.png)
 
-This is a screenshot from the home page
+## Operational Competencies Acquired
 
-## How did I do it
+I implemented the front-end of the site with Astro, building the pages that present the product and
+the company.
 
-To do that website, I used Astro, a Javascript framework that allows you to create static website with dynamic content.
+## Live site
 
-## You can find the website [here](https://ascencio.ch)
-
-This is a private repository, so you can't see the code, but you can go see the website on the link above.
+You can find the site [here](https://ascencio.ch). The repository is private, so the code itself is
+not publicly available.

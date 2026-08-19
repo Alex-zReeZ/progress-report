@@ -1,14 +1,30 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # PHP todolist <Badge type="tip" text="PHP" />
 
-## What is the project purpose ?
+## Purpose
 
-The purpose of this project was to use a PHP framework to learn how to make roots
+A todo list written in PHP, backed by a SQLite database, where a task can be created and deleted. The
+stated goal of the exercise was to learn how routing works in PHP, and I wrote the whole thing.
 
-## How did I do it
+> NOTE: confirm the purpose. The original page says the point was to use a PHP framework, while the
+> project is written in vanilla PHP. The framework version is the [Slim todolist](./Slim_Todolist.md).
 
-For that project, I used vanilla [PHP](https://php.net/). And to keep the data, I used a SQLite database.
+## Technologies
 
-### Here is an exemple of my code
+- PHP
+- SQLite
+
+## How it works
+
+The pages talk to the database through PDO. Every statement is prepared and its values bound rather
+than concatenated into the SQL, so a task title coming from a form cannot alter the query that
+handles it.
 
 ```php
 
@@ -22,15 +38,11 @@ function removeTodo($taskId): void
 
 ```
 
-This function here allows you to remove a todo from your todo list
+## Operational Competencies Acquired
 
-In this code, I take a todo that was written in the input and write it into
-the database, writing a success message or an error message.
+I implemented the back-end in PHP, including the operations on the tasks and their persistence in
+SQLite through prepared statements.
 
-For the database, we used the SQLite database.
+## Source code
 
-## How to initiate project
-
-For that, you will only need [PHP](https://www.php.net/downloads)
-
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todo_php)
+The repository is available [here](https://github.com/Alex-zReeZ/todo_php).

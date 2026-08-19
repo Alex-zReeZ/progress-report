@@ -1,18 +1,33 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Slim todolist <Badge type="tip" text="PHP" />
 
-## What is the project purpose ?
+## Purpose
 
-The purpose of this project was to use a PHP framework to learn how to make roots
+The same todo list, this time built on a PHP framework in order to learn how routing is handled by
+one. Slim maps the URLs to the code, Twig renders the pages and SQLite stores the tasks. I built it
+alone.
 
-## How it looks like
+## Technologies
 
-![slim todo](../../images/slimTodo.png)
+- PHP
+- Slim 4
+- Twig
+- SQLite
+- Composer
 
-## How did I do it
+## How it works
 
-For that project, I used [Slim](https://www.slimframework.com/) framework.
-
-### Here is an exemple of my code
+Each route is declared with its HTTP method and its path, and receives the request and the response
+as arguments. Adding a task goes through a POST route that reads the submitted title, refuses it
+unless its length falls between 3 and 50 characters, inserts it with a prepared statement, puts a
+success or an error message in the session, and redirects back to the list so a refresh does not
+resubmit the form.
 
 ```php
 
@@ -43,32 +58,15 @@ $app->post('/todo/add', function ($request, $response) {
 
 ```
 
-In this code, I take a todo that was written in the [Entrer a new todo](#how-it-looks-like) input, check the input todo length, write it into
-the database if the length is good and finally writing a success message or an error message.
+## Screens
 
-For the database, we used the SQLite database.
+![slim todo](../../images/slimTodo.png)
 
-## How to initiate project
+## Operational Competencies Acquired
 
-```shell
+I implemented the application on top of Slim: the routes, the Twig templates, the persistence in
+SQLite, and the validation of what the user submits before it reaches the database.
 
-#First you need PHP
+## Source code
 
-# Then you are gonna need Composer
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'edb40769019ccf227279e3bdd1f5b2e9950eb000c3233ee85148944e555d97be3ea4f40c3c2fe73b22f875385f6a5155') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-
-# After that, you are gonna install Slim with "require"
-composer require slim/slim:"4.*"
-
-# With slim, you will need the PSR-7
-composer require slim/psr7
-
-
-```
-
-If something doesn't work, check [Slim](https://www.slimframework.com/docs/v4/start/installation.html) documentation
-
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/todolist-slim-twig)
+The repository is available [here](https://github.com/Alex-zReeZ/todolist-slim-twig).

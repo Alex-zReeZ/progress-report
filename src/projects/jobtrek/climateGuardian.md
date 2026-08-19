@@ -1,46 +1,54 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # Climate Guardian <Badge type="tip" text="JS"/>
 
-## What is the project purpose ?
+## Purpose
 
-This project was made for the non-profit organization named memoires-informatiques.
-Memoires-informatiques has a lot of old computers and other electronic devices that need to be stored in a controlled environment
-The goal of this project is to monitor the temperature and humidity of the different rooms of the organization and to display the data on a web interface
-So this project is more of an interface, which you can't find on the internet.
+Climate Guardian was built for the non-profit organisation Memoires Informatiques, which keeps a
+large collection of old computers and electronic devices that has to be stored in a controlled
+environment. The application monitors the temperature and the humidity of the organisation's rooms
+and presents the readings on a web interface, so a room drifting out of range becomes visible. The
+interface is the part of the system I worked on.
 
-## How it looks like
+> TODO: state which parts of the project were yours and which were done by the rest of the team.
 
-### Login Page :
+## Technologies
 
-This is the web interface of the login page, with a dark mode implemented in all the website.
+- React
+- TypeScript
+- PostgREST
+- ESP sensors
 
-For a question of visibility, we will only show the dark mode of the login page.
+## How it works
+
+The sensors placed in the rooms feed their readings into the database. PostgREST exposes that
+database directly as an HTTP API, including stored procedures, so the front-end asks for what it
+needs through a single call: the average readings for one sensor, over a chosen period, at a chosen
+level of precision. Every request carries a bearer token, and the pages behind the login are the
+dashboard with the live values, a floor plan locating the rooms and their sensors, a page per room
+with its detailed history, and a user administration page. The whole interface has a light and a
+dark theme.
+
+## Screens
 
 | ![login page white](../../images/climate-guardian/climateGuardian-login-white.png) | ![login page black](../../images/climate-guardian/climateGuardian-login-black.png) |
-| :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-|                                Login Page white                                 |                                Login Page black                                 |
+| :-------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+|                                  Login, light theme                                |                                  Login, dark theme                                 |
 
-### The dashboard :
-
-Then we arrive on the dashboard, where we can see the temperature and humidity of the different rooms.
+The dashboard:
 
 ![dashboard white](../../images/climate-guardian/climateGuardian-dashboard-white.png)
 
-You can also see the dashboard on the left, here are some element of it.
-
-- Dashboard to see the actual temperature and humidity of the different rooms
-- A plan to see where the different rooms and Esp are located
-- A user page, to add and delete users
-- A room page, where there are a lot more information about the room
-
-### The room page :
-
-Here is the room page, where you can see the different information about the room.
+A room, with its readings and its position on the plan:
 
 ![room page white](../../images/climate-guardian/climateGuardian-room-white.png)
 
-And under that, there is the plan with where only this room is located.
-
-## Here is an exemple of my code
+The hook that fetches the averaged readings, parameterised by precision, sensor and date range:
 
 ```tsx
 // Function to get the data from the API
@@ -68,6 +76,15 @@ export const useFetchData = (
 };
 ```
 
-The useFetchData function is designed to retrieve data from an API based on specific parameters: precision, IP address, and date range. This function uses React hooks to manage the data fetching process and state management.
+## Operational Competencies Acquired
 
-## You can find the [GitHub depot here](https://github.com/museebolo/climat_guardian)
+I implemented the front-end in React and TypeScript, including the calls to the API, the
+authenticated requests and the pages that make up the interface.
+
+I worked on the reading side of the measurements: querying them from storage, aggregating them by
+period through the API, and presenting them in a form where an anomaly in a room can be spotted
+rather than read off a raw table.
+
+## Source code
+
+The repository is available [here](https://github.com/museebolo/climat_guardian).

@@ -20,8 +20,8 @@ const links = [
                             { text: "Grade calculator", link: "/projects/jobtrek/grades-calculator" },
                             { text: "Todo list", link: "/projects/jobtrek/Php-Todolist" },
                             { text: "Slim todo list", link: "/projects/jobtrek/Slim_Todolist" },
-                            { text: "Todo list", link: "/projects/jobtrek/python-todo" },
-                            { text: "Todo list", link: "/projects/jobtrek/rust-todo" },
+                            { text: "Python todo list", link: "/projects/jobtrek/python-todo" },
+                            { text: "Rust tsodo list", link: "/projects/jobtrek/rust-todo" },
                         ]
                     },
                     {

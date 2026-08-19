@@ -1,25 +1,31 @@
+---
+date: TODO
+duration: TODO
+location: Jobtrek
+grade: TODO
+---
+
 # JavaScript grade calculator <Badge type="tip" text="JS"/>
 
-## What is the project purpose ?
+## Purpose
 
-The purpose of this website is to calculate a student's grades, determining all the necessary averages.
-It serves as a tool to help the student keep track of their grades during their learning.
+This web application computes a student's grades and the averages that derive from them, so the
+student can follow where they stand during their training instead of recomputing everything by hand.
+I built it entirely, and it runs in the browser with no back-end behind it.
 
-## How it looks like
+## Technologies
 
-### Without grades added :
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-![grade calculator screenshot](../../images/grade-calculator/grade-calculator-image.png)
+## How it works
 
-### With grades added :
-
-![semester row with grades](../../images/grade-calculator/grade-calculator-exemple.png)
-
-## How did I do it
-
-To help me with that, the [React documentation](https://react.dev/learn) really helped me.
-
-### Here is an exemple of my code
+The interface is split into components: a semester row holds the grades entered for one semester and
+reports its average upwards, and the page keeps the list of semesters. Adding a semester appends an
+entry to that list, which React renders as one more row, so the number of semesters is data rather
+than markup.
 
 ```tsx
 // Function to render SemesterRow components based on the semesters array
@@ -37,37 +43,25 @@ const renderSemesterRows = () => {
 };
 ```
 
-This code create a new semester each time you click on the button "add semester"
+## Screens
+
+Before any grade is entered:
+
+![grade calculator screenshot](../../images/grade-calculator/grade-calculator-image.png)
+
+And with grades entered:
+
+![semester row with grades](../../images/grade-calculator/grade-calculator-exemple.png)
+
+The button that adds a semester:
 
 ![show the add semester button](../../images/grade-calculator/addsemesterbutton.png)
 
-## How to initiate project
-
-This project is made with the framework called [React.js](https://react.dev) used with
-[TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html). For the aspect of the website,
-I used a framework called [Tailwind.css](https://tailwindcss.com/)
-\
-\
-And to connect all that,
-we need to use [Vitejs](https://vitejs.dev/guide/), which propose file template for your project with different framework.
-In this case, we're going to use the React-ts template. Which will give us this :
-
-```shell
-# Project creation
-npm create vite@latest  grades-view-react -- --template react-ts
-
-# Install dependencies needed for the project
-npm i
-
-# Install Tailwind.css
-npm install -D tailwindcss
-
-```
-
-For configuring Tailwind.css in your files, follow [these instructions](https://tailwindcss.com/docs/installation)
-
-Then, you can start working on your project, separating your html code in different component which look like that for me :
+How the components are split:
 
 ![project file tree](../../images/grade-calculator/gradesviewreact-filetree.png)
 
-## You can find the [GitHub depot here](https://github.com/Alex-zReeZ/grades-calculator-react)
+## Operational Competencies Acquired
+
+I implemented the application in React and TypeScript, from the component structure down to the
+computation of the averages and the state that ties the rows to the page.
