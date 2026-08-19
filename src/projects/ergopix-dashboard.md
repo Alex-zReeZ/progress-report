@@ -1,17 +1,40 @@
-# Ergopix dashboard <Badge type="tip" text="JS | PHP" />
+# Ergopix Dashboard <Badge type="tip" text="React | PHP" />
 
-## What is the project purpose ?
+## Purpose
 
-This project is part of my work; it’s a dashboard that every employee can use to clock in and access various modules we use daily. My task was to carry out a complete redesign of the project.
+This is an internal Ergopix tool used across the company. Every employee uses it to clock in and
+to reach the various modules they work with day to day. My task was a complete redesign of the
+project, both to make it more pleasant and intuitive to use and to sharpen how some of its
+modules actually work.
 
-## How did I do it
+## Technologies
 
-I used React and PHP, with many modules built in PHP to generate custom JSON responses containing the necessary data, which were then fetched and used in React.
+- React
+- PHP
+
+## How it works
+
+The back-end is built as a set of PHP modules, each responsible for a given feature. Every module
+produces a custom JSON response containing exactly the data the interface needs. The React
+front-end fetches those responses and turns them into the dashboard the employees interact with.
+This split keeps each feature self-contained on the PHP side while the React layer stays focused
+on presentation and interaction.
+
+## My role
+
+I led the full redesign. On the front-end, I reworked the interface so employees could clock in
+and reach their modules more quickly and with less friction. On the back-end, I revisited several
+modules, rethinking their behavior to make them genuinely more useful and efficient rather than
+just restyling them.
 
 ## Operational Competencies Acquired
 
-The need for this project was to redesign the existing Ergopix employee dashboard to improve usability and functionality. The goal was to create a more intuitive interface that allows employees to easily clock in and access various modules they use daily.
+The redesign centered on usability: I reworked the interface so the everyday actions, clocking in
+and opening the right module, became faster and more intuitive for the team.
 
-For that, I had to rethink some of the modules' functionalities to make them more useful and efficient for us to use.
+I implemented the solution across the stack, building the React front-end and the PHP modules that
+generate the tailored JSON responses it consumes.
 
-## Sadly you can't find the website anywhere
+## Availability
+
+This is an internal tool, so it isn't publicly accessible.
