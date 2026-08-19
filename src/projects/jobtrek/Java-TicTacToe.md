@@ -8,19 +8,19 @@ This project was made to use the Java knowledge that we acquire by doing the exe
 
 ### Game Begin
 
-![How looks the TicTacToe in the command line](../images/ticTacToe/TicTacToe-incommandeline.png)
+![How looks the TicTacToe in the command line](../../images/ticTacToe/TicTacToe-incommandeline.png)
 
 ### First player :
 
-![First player choose a place](../images/ticTacToe/TicTacToe-playerX.png)
+![First player choose a place](../../images/ticTacToe/TicTacToe-playerX.png)
 
 ### Second Player :
 
-![Second player choose a place](../images/ticTacToe/TicTacToe-playerO.png)
+![Second player choose a place](../../images/ticTacToe/TicTacToe-playerO.png)
 
 ### Winner
 
-![When a player win](../images/ticTacToe/TicTacToe-winner.png)
+![When a player win](../../images/ticTacToe/TicTacToe-winner.png)
 
 ## How did I do it
 

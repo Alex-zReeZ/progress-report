@@ -6,7 +6,7 @@ The purpose of this project was to use a PHP framework to learn how to make root
 
 ## How it looks like
 
-![slim todo](../images/slimTodo.png)
+![slim todo](../../images/slimTodo.png)
 
 ## How did I do it
 

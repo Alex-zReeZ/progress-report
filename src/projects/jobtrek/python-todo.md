@@ -7,7 +7,7 @@ add, remove and mark as done. This was to learn the basics of python and how to 
 
 ## How it looks like
 
-![The todo list](../images/python-todo/TodoList.png)
+![The todo list](../../images/python-todo/TodoList.png)
 
 ## How did I do it
 

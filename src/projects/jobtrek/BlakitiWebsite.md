@@ -7,15 +7,15 @@ The purpose of this project was to learn how to use HTML and CSS to create a web
 ## How it looks like
 
 This is the page where I show what the products look like, it is only the product. If you want to see the product in detail, you can scroll down to the mock-up.
-![Page of how the products are presented](../images/screen-produit-p1.png)
+![Page of how the products are presented](../../images/screen-produit-p1.png)
 
 Here, I created a "collaboration" page, where I show all the collaboration I did with artist (fake one).
-![all the artist I worked with](../images/collaboration-blakiti.png)
+![all the artist I worked with](../../images/collaboration-blakiti.png)
 
 ## How did I do it
 
 first, I needed to make a mock-up, which I did on [figma](https://www.figma.com/file/gEXFCc3bPYPzL4NK860PjI/Untitled?type=design&node-id=0%3A1&mode=design&t=qXVjhaH8kzigYXW2-1) (link show the figma mock-up if you want to see details)
-![figma mock-up of all the website](../images/global-mock-up.png)
+![figma mock-up of all the website](../../images/global-mock-up.png)
 
 Then, All I needed was to use Html and css to make it. <br><br>
 This is how the collaborator part looks like in Html :

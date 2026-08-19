@@ -7,7 +7,7 @@ The website is a showcase of the product and the company.
 
 ## How it looks like
 
-![The home page](../images/AscencioHomePage.png)
+![The home page](../../images/AscencioHomePage.png)
 
 This is a screenshot from the home page
 

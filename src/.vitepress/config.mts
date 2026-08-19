@@ -14,23 +14,23 @@ const links = [
                         text: "Exercices",
                         collapsed: true,
                         items: [
-                            { text: "Web integration", link: "/projects/webIntegration" },
-                            { text: "Blakiti website", link: "/projects/BlakitiWebsite" },
-                            { text: "TicTacToe", link: "/projects/Java-TicTacToe" },
-                            { text: "Grade calculator", link: "/projects/grades-calculator" },
-                            { text: "Todo list", link: "/projects/Php-Todolist" },
-                            { text: "Slim todo list", link: "/projects/Slim_Todolist" },
-                            { text: "Todo list", link: "/projects/python-todo" },
-                            { text: "Todo list", link: "/projects/rust-todo" },
+                            { text: "Web integration", link: "/projects/jobtrek/webIntegration" },
+                            { text: "Blakiti website", link: "/projects/jobtrek/BlakitiWebsite" },
+                            { text: "TicTacToe", link: "/projects/jobtrek/Java-TicTacToe" },
+                            { text: "Grade calculator", link: "/projects/jobtrek/grades-calculator" },
+                            { text: "Todo list", link: "/projects/jobtrek/Php-Todolist" },
+                            { text: "Slim todo list", link: "/projects/jobtrek/Slim_Todolist" },
+                            { text: "Todo list", link: "/projects/jobtrek/python-todo" },
+                            { text: "Todo list", link: "/projects/jobtrek/rust-todo" },
                         ]
                     },
                     {
                         text: "Projets",
                         collapsed: false,
                         items: [
-                            { text: "GradiX", link: "/projects/gradix" },
-                            { text: "Ascencio", link: "/projects/ascencio" },
-                            { text: "Climate Guardian", link: "/projects/climateGuardian" },
+                            { text: "GradiX", link: "/projects/jobtrek/gradix" },
+                            { text: "Ascencio", link: "/projects/jobtrek/ascencio" },
+                            { text: "Climate Guardian", link: "/projects/jobtrek/climateGuardian" },
                         ]
                     },
                 ],
@@ -44,7 +44,7 @@ const links = [
                         collapsed: true,
                         items: [
                             { text: "PressAI", link: "/projects/press-ai" },
-                            { text: "Headless Steriparc", link: "projects/steriparc" },
+                            { text: "Headless Steriparc", link: "/projects/steriparc" },
                             { text: "Project 47247180", link: "/projects/harvest-47247180" },
                         ]
                     },
@@ -52,7 +52,7 @@ const links = [
                         text: "Projets",
                         collapsed: false,
                         items: [
-                            { text: "Gérifonds", link: "projects/gerifonds" },
+                            { text: "Gérifonds", link: "/projects/gerifonds" },
                             { text: "Ergopix Dashboard", link: "/projects/ergopix-dashboard" },
                             { text: "Ergopix 2026", link: "/projects/ergopix26" },
                             { text: "BDRP", link: "/projects/bdrp" },

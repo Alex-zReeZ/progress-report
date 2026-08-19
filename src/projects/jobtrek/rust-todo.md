@@ -9,7 +9,7 @@ For the realisation of this project, I use [Rust documentation](https://doc.rust
 ## How it look like
 
 \
-![Rust Todo in command line](../images/screen-rust-todo.png)
+![Rust Todo in command line](../../images/screen-rust-todo.png)
 
 ## How did I do it
 
