@@ -7,7 +7,7 @@ const links = [
         text: "Projects",
         items: [
             {
-                text: "centre de formation",
+                text: "Centre de formation",
                 collapsed: true,
                 items: [
                     {
