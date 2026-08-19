@@ -1,17 +1,42 @@
-# Gérifonds <Badge type="tip" text="drupal" />
+# Gérifonds <Badge type="tip" text="Drupal 9" />
 
-## What is the project purpose ?
+## Purpose
 
-Gérifonds is a Swiss real estate company that specializes in the management and development of residential and commercial properties. They offer a range of services including property management, real estate development, and investment consulting. Gérifonds aims to provide high-quality living and working spaces while ensuring sustainable and profitable investments for their clients.
+Gérifonds is a Swiss company active in fund management and real estate investment. I wasn't
+involved in building or deploying their site. My task was to add two new web services to the
+existing platform, so that external systems could pull fund data and fund documents on demand.
 
-I did not participate in the creation of the deployment of it. Later I created a webservices aiming to return certain lists of documents depending on the type and lang of it.
+## Technologies
 
-## How did I do it
+- Drupal 9
+- PHP
+- MySQL
 
-I used Drupal 9, PHP and MySQL to create the webservices. Requesting the database to return the documents depending on the type and lang. Always returning the last document added ignoring the precedent.
+## What I built
+
+I added two REST endpoints to the site's existing custom Drupal module. Rather than starting
+from scratch, I based my work on the web services already in place, adding the routes to the
+module's routing file and the matching methods to its controller, then clearing the cache so
+Drupal would pick up the new routes.
+
+The first service, `fundsInfo`, returns a fund's information from its ISIN, and accepts several
+ISINs at once:
+
+GET /ws/fundsInfo/{ISIN}
+
+The second, `fileInfo`, returns fund documents filtered by documentation code, language, and
+ISIN. The documentation code and language are optional: leaving one out widens the results
+(all languages, or all document types), and it always returns the most recent document rather
+than older revisions:
+
+GET /ws/fileInfo/{documentation_code}/{language_code}/{ISIN}
+
+Both services query the MySQL database and return the requested records. I also wrote the API
+documentation describing each endpoint, its parameters, and its behavior.
 
 ## Operational Competencies Acquired
 
-I first had to understand the existing Drupal architecture and scripts that were already in place for others webservices, using them as a base for my own one.
-
-## You can find the real [Website here](https://www.gerifonds.ch)
+I first had to understand the existing Drupal architecture and the web services already in
+place, then use them as a model for my own. On that basis, I implemented the two endpoints in
+PHP: adding the routes, writing the controller methods that query the database by ISIN,
+documentation code, and language, and returning the latest matching records.
