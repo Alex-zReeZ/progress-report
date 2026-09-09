@@ -90,7 +90,9 @@ the year summary be recomputed from the grades alone. **(c1)**
 
 I implemented both sides of the application: the Django REST Framework endpoints with their
 serializers, their owner scoped queryset and their token based login, and the React front-end that
-consumes them.
+consumes them. **(g5)**
+
+**Operational competencies:** c1, g5
 
 ## Source code
 

@@ -30,10 +30,12 @@ just restyling them.
 ## Operational Competencies Acquired
 
 The redesign centered on usability: I reworked the interface so the everyday actions, clocking in
-and opening the right module, became faster and more intuitive for the team.
+and opening the right module, became faster and more intuitive for the team. **(g2)**
 
 I implemented the solution across the stack, building the React front-end and the PHP modules that
-generate the tailored JSON responses it consumes.
+generate the tailored JSON responses it consumes. **(g5)**
+
+**Operational competencies:** g2, g5
 
 ## Availability
 

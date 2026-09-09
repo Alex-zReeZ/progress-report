@@ -71,8 +71,10 @@ And the end of the game:
 
 ## Operational Competencies Acquired
 
-I implemented the program in Java, including the game loop, the reading of the players' moves and the
-detection of a win or a draw.
+I implemented the program in Java, including the game loop, the reading of the players' moves and
+the detection of a win or a draw. **(g5)**
+
+**Operational competencies:** g5
 
 ## Source code
 

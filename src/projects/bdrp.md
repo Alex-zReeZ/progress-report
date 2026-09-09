@@ -26,10 +26,12 @@ had to get familiar with the site's content and structure before making those ad
 
 Starting from an interface that was already in place, I adapted it to the client's design
 feedback, reworking the styling with SCSS and Bootstrap 5 and adjusting the display until it
-matched what the client wanted.
+matched what the client wanted. **(g2)**
 
 Beyond the styling, I implemented the required display changes in code, writing PHP in Drupal's
 `.theme` and `.module` files (preprocess functions and hooks) to alter how content was rendered
-on both the front-end and the back-end.
+on both the front-end and the back-end. **(g5)**
+
+**Operational competencies:** g2, g5
 
 ## You can find the [Website here](https://www.bdrp.ch/)

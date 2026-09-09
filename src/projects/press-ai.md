@@ -87,14 +87,16 @@ def folder_to_single_media_json(folder_path, recursive=True):
 I started by defining the project's requirements and objectives. In particular, I agreed with the
 developer handling the generation side on the file naming convention, which set the interface
 contract between their output and my processing. That agreement framed exactly which files would
-be produced, what each represented, and how my side would recognize them.
+be produced, what each represented, and how my side would recognize them. **(a1)**
 
 The heart of the work was analyzing that varied, semi-structured output and turning it into a
 single data model: I designed a JSON structure that groups each video's files by type and
-language, and wrote the Python parsing logic that fills it from the naming convention.
+language, and wrote the Python parsing logic that fills it from the naming convention. **(c1)**
 
 I then processed the files from that model, reading and grouping the data so it could be exposed
-consistently, and made it available to the rest of the application.
+consistently, and made it available to the rest of the application. **(c4)**
 
 Finally, I implemented a React interface so users could browse the consolidated media and data
-directly.
+directly. **(g5)**
+
+**Operational competencies:** a1, c1, c4, g5

@@ -45,8 +45,10 @@ fn display_todos(&self) {
 
 ## Operational Competencies Acquired
 
-I implemented the program in Rust, including the storage of the todos in memory and the commands that
-add and display them.
+I implemented the program in Rust, including the storage of the todos in memory and the commands
+that add and display them. **(g5)**
+
+**Operational competencies:** g5
 
 ## Source code
 

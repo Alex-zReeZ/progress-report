@@ -39,4 +39,6 @@ documentation describing each endpoint, its parameters, and its behavior.
 I first had to understand the existing Drupal architecture and the web services already in
 place, then use them as a model for my own. On that basis, I implemented the two endpoints in
 PHP: adding the routes, writing the controller methods that query the database by ISIN,
-documentation code, and language, and returning the latest matching records.
+documentation code, and language, and returning the latest matching records. **(g5)**
+
+**Operational competencies:** g5

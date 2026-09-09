@@ -64,4 +64,6 @@ How the components are split:
 ## Operational Competencies Acquired
 
 I implemented the application in React and TypeScript, from the component structure down to the
-computation of the averages and the state that ties the rows to the page.
+computation of the averages and the state that ties the rows to the page. **(g5)**
+
+**Operational competencies:** g5

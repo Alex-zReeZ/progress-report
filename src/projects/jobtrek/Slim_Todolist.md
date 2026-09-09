@@ -65,7 +65,9 @@ $app->post('/todo/add', function ($request, $response) {
 ## Operational Competencies Acquired
 
 I implemented the application on top of Slim: the routes, the Twig templates, the persistence in
-SQLite, and the validation of what the user submits before it reaches the database.
+SQLite, and the validation of what the user submits before it reaches the database. **(g5)**
+
+**Operational competencies:** g5
 
 ## Source code
 

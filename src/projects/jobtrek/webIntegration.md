@@ -38,7 +38,9 @@ The files it was built from:
 ## Operational Competencies Acquired
 
 I turned a static prototype into a working page, judging where the prototype could not be followed
-as drawn and correcting its alignment and sizing problems so the result stayed readable.
+as drawn and correcting its alignment and sizing problems so the result stayed readable. **(g2)**
+
+**Operational competencies:** g2
 
 ## Source code
 

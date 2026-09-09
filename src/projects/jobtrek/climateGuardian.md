@@ -79,11 +79,13 @@ export const useFetchData = (
 ## Operational Competencies Acquired
 
 I implemented the front-end in React and TypeScript, including the calls to the API, the
-authenticated requests and the pages that make up the interface.
+authenticated requests and the pages that make up the interface. **(g5)**
 
 I worked on the reading side of the measurements: querying them from storage, aggregating them by
 period through the API, and presenting them in a form where an anomaly in a room can be spotted
-rather than read off a raw table.
+rather than read off a raw table. **(c4)**
+
+**Operational competencies:** g5, c4
 
 ## Source code
 

@@ -28,7 +28,9 @@ content of those pages to be generated from data rather than written by hand in 
 ## Operational Competencies Acquired
 
 I implemented the front-end of the site with Astro, building the pages that present the product and
-the company.
+the company. **(g5)**
+
+**Operational competencies:** g5
 
 ## Live site
 

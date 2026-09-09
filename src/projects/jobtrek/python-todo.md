@@ -41,7 +41,9 @@ def add_task():
 ## Operational Competencies Acquired
 
 I implemented the program in Python, splitting it into functions for each operation on the task
-lists.
+lists. **(g5)**
+
+**Operational competencies:** g5
 
 ## Source code
 

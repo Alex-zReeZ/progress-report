@@ -42,15 +42,17 @@ access model right.
 To replace the ageing Drupal 7 instance, I researched and tested several document-management
 and file-sharing solutions, comparing them against the features the platform actually needed. I
 evaluated each option's technical potential and its limitations, which is what ultimately ruled
-them out.
+them out. **(a3)**
 
 On the basis of that evaluation, I weighed the shortlisted tools against staying on Drupal and,
 together with the team, settled on Drupal 11 for its customization and its ability to import
 the existing files. I then developed the target architecture conceptually. Since Drupal 11
 dropped the Field Collections approach used in the old version, I designed a cleaner structure
-around the Group and Paragraphs modules.
+around the Group and Paragraphs modules. **(g4)**
 
 A central part of the work was migrating the legacy content. I planned and carried out the
 import of the old files from the Drupal 7 source into the new Drupal 11 target, verifying the
 completeness and integrity of the migrated data. I ran this migration with the support of an AI
-assistant (Claude), which helped me plan the process and write the migration scripts.
+assistant (Claude), which helped me plan the process and write the migration scripts. **(c2)**
+
+**Operational competencies:** a3, g4, c2

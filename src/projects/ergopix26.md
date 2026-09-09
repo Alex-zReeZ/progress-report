@@ -33,15 +33,18 @@ line.
 
 I started by researching the headless approach, weighing a headless WordPress and Next.js
 architecture against a traditional WordPress setup and assessing what each would mean for
-performance and flexibility.
+performance and flexibility. **(a3)**
 
 On that basis, I designed the solution. I structured the content model with custom post types
 and ACF fields, and defined how the WordPress backend and the Next.js front-end would
-communicate through GraphQL.
+communicate through GraphQL. **(g4)**
 
 I then implemented the application, building the Next.js front-end, wiring up the GraphQL
 queries, and configuring the WordPress side so content flows cleanly into the rendered pages.
+**(g5)**
 
 For delivery, I defined and implemented the deployment process. A WordPress plugin triggers a
 GitHub Action that builds the site and ships it to the production server over SSH, giving the
-project a repeatable, automated release pipeline.
+project a repeatable, automated release pipeline. **(h2, h3)**
+
+**Operational competencies:** a3, g4, g5, h2, h3

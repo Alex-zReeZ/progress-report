@@ -30,11 +30,13 @@ to run.
 Building the headless home page served as a proof of concept. It was a first, hands-on check
 that a headless WordPress and React approach was viable, and the intended groundwork for a
 later performance comparison with the classic WordPress site. That comparison was never
-actually performed.
+actually performed. **(a3)**
 
 On the front-end side, I verified the technical feasibility of the interface, then designed and
 implemented the home page in React, integrating the layout and interactions to reproduce the
-original.
+original. **(g2)**
+
+**Operational competencies:** a3, g2
 
 ## Live site
 

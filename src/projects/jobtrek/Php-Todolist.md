@@ -41,7 +41,9 @@ function removeTodo($taskId): void
 ## Operational Competencies Acquired
 
 I implemented the back-end in PHP, including the operations on the tasks and their persistence in
-SQLite through prepared statements.
+SQLite through prepared statements. **(g5)**
+
+**Operational competencies:** g5
 
 ## Source code
 

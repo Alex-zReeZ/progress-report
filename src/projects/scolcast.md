@@ -32,10 +32,12 @@ library I had to learn for this project.
 ## Operational Competencies Acquired
 
 To match the existing site, I analyzed its content-type fields and modelled the new structure,
-recreating the content types and taxonomies on the Drupal instance.
+recreating the content types and taxonomies on the Drupal instance. **(c1)**
 
 I developed the full front-end by writing Twig templates that render the content dynamically,
-turning the modelled data into the site's pages.
+turning the modelled data into the site's pages. **(g5)**
+
+**Operational competencies:** c1, g5
 
 ## Live site
 

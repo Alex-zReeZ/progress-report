@@ -98,7 +98,9 @@ gets narrower:
 
 I designed the interface as a mock-up first, checked that what I had drawn could actually be built
 with the techniques I had, then developed it into working pages, including the behaviour of the
-cards when the available width changes.
+cards when the available width changes. **(g2)**
+
+**Operational competencies:** g2
 
 ## Source code
 
